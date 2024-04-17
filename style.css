@@ -141,9 +141,9 @@ li span{
     }
 
     #taskinput {
-        width: 80vw;
+        width: 60vw;
         /* Adjusted width for mobile */
-        height: 5vh;
+        height: 2vh;
         /* Keep the same height for mobile */
         font-size: 2vw;
         /* Adjusted font size for mobile */
@@ -154,7 +154,7 @@ li span{
     button {
         padding: 6px 12px;
         /* Keep the same padding for mobile */
-        height: 5vh;
+        height: 2vh;
         /* Keep the same height for mobile */
         font-size: 1.5vw;
         /* Adjusted font size for mobile */
