@@ -26,10 +26,12 @@ if ('SpeechRecognition' in window || 'webkitSpeechRecognition' in window) {
         }
 
     }
-    
+
     function deleteTask(e) {
-        let liParent=e.parentNode
-        taskList.removeChild(liParent)
+        let liParent = e.parentNode
+        if (window.confirm("are u sure?")) {
+            taskList.removeChild(liParent)
+        }
     }
 
 } else {
