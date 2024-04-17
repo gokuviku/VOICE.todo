@@ -67,3 +67,114 @@ li span{
 .delete-btn{
     background: rgba(255,0,0,0.594);
 }
+
+/* Media query for 320px width */
+/* @media onlyscreen and (max-width: 320px) {
+
+#main {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: .21vw;
+        gap: .4vh;
+    }
+
+    #taskinput {
+        width: .8vw;
+        height: .1vh;
+        font-size: .2vw;
+        padding: 0 21w;
+    }
+
+    button {
+        padding: 6px 12px;
+        height: .2vh;
+        color: #fff;
+        background: rgb(9, 222, 9);
+        border: none;
+        outline: none;
+        font-size: 0.3vw;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+    #tasklist {
+        list-style: none;
+        padding: 0;
+    }
+
+    ul {
+        display: flex;
+        flex-direction: column;
+        gap: 1vh;
+    }
+
+    ul li {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 20vw;
+        box-shadow: rgba(149, 157, 165, 0.2)0 8px 24px;
+    }
+
+    li span {
+        padding-left: .22vw;
+    }
+
+    .delete-btn {
+        background: rgba(255, 0, 0, 0.594);
+    }
+} */
+
+
+
+/* Media query for 320px width */
+@media only screen and (max-width: 320px) {
+    #main {
+        font-size: 2vw;
+        /* Adjusted font size for mobile */
+        gap: 1vh;
+        /* Adjusted gap for mobile */
+    }
+
+    #taskinput {
+        width: 80vw;
+        /* Adjusted width for mobile */
+        height: 5vh;
+        /* Keep the same height for mobile */
+        font-size: 2vw;
+        /* Adjusted font size for mobile */
+        padding: 0 1vw;
+        /* Adjusted padding for mobile */
+    }
+
+    button {
+        padding: 6px 12px;
+        /* Keep the same padding for mobile */
+        height: 5vh;
+        /* Keep the same height for mobile */
+        font-size: 1.5vw;
+        /* Adjusted font size for mobile */
+        border-radius: 4px;
+        /* Keep the same border radius for mobile */
+    }
+
+    ul li {
+        width: 90vw;
+        /* Adjusted width for mobile */
+        box-shadow: rgba(149, 157, 165, 0.2) 0 8px 24px;
+        /* Keep the same box shadow for mobile */
+    }
+
+    li span {
+        padding-left: 1vw;
+        /* Adjusted padding for mobile */
+    }
+
+    .delete-btn {
+        background: rgba(255, 0, 0, 0.594);
+    }
+}
